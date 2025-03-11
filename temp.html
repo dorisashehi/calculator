@@ -1,0 +1,47 @@
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+  }
+  .number_button {
+    width: 50px;
+    height: 50px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px black;
+  }
+  .number_button:hover {
+    background-color: #45a049;
+  }
+  .number_button:active {
+    background-color: #3e8e41;
+    box-shadow: 1px 0px 0px black;
+  }
+  .number_holder {
+    display: flex;
+    flex-wrap: wrap;
+  }
+</style>
+
+<div>
+  <h1>Calculator</h1>
+  <div>
+    <span id="runningSum"></span>
+  </div>
+  <div class="number_holder">
+    <button class="number_button">1</button>
+    <button class="number_button">2</button>
+    <button class="number_button">3</button>
+    <button class="number_button">4</button>
+    <button class="number_button">5</button>
+    <button class="number_button">6</button>
+    <button class="number_button">7</button>
+    <button class="number_button">8</button>
+    <button class="number_button">9</button>
+    <button class="number_button">0</button>
+  </div>
+</div>
