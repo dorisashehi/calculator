@@ -18,6 +18,10 @@ button.operator {
   color: #ffffff;
 }
 
+button.operator.plus {
+  width: 128px;
+}
+
 button.parenthesis,
 button.clear {
   background: #7879f1;
