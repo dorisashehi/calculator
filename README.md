@@ -24,5 +24,5 @@ Here's a walkthrough of implemented required features:
 
 ```sh
 git clone https://github.com/your-username/calculator-expression-tree.git
-cd calculator-expression-tree
+cd calculator_app
 ```
