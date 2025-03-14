@@ -14,6 +14,10 @@ This assignment involves completing the `stub` function in a given calculator ap
 
 ---
 
+Here's a walkthrough of implemented required features:
+
+<img src='https://github.com/dorisashehi/calculator/blob/main/calculator.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## Installation & Running the Project
 
 ### **1. Clone the Repository**
