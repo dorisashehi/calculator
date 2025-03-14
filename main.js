@@ -64,7 +64,7 @@ class ExpressionTree {
   }
 }
 
-// Correct infix-to-postfix conversion using the **Shunting Yard Algorithm**
+// Correct infix-to-postfix conversion
 function infixToPostfix(infix) {
   let output = [];
   let operators = new Stack();
@@ -204,7 +204,6 @@ const data = {
     let result = tree.evaluate(root);
     const display = document.getElementById("display");
     display.innerText = data.displayString + " = " + result;
-    console.log("Result:", result);
   },
 };
 
